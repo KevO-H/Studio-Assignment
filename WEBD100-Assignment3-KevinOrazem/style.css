@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'tiny5', sans-serif;
+}
+
+audio {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: RGB(240 22 146);
+}
+
+nav {
+    background-color: RGB(29 31 73);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    width: 1600px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'tiny5', sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+button:active {
+    background-color: RGB(29 31 73);
+}
+
+footer {
+    color: white;
+    background-color: RGB(29 31 73);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-family: 'jersey 15', sans-serif;
+    font-size: 22px;
+    height: 200px;
+    width: 1600px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -9px;
+    margin-bottom: -9px;
+    
+}
+
+.nav-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    flex-grow: 0;
+    margin-left: 60px;
+    width: 350px;
+    font-family: 'jacquard 12', sans-serif;
+    font-size: 52px;
+}
+
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-left: 500px;
+    font-family: 'jersey 15', sans-serif;
+    font-size: 52px;
+}
+
+.nav-skull {
+    width: 57px;
+    height: 57px;
+    vertical-align: middle;
+}
+
+.nav-item {
+    z-index: 10;
+    align-content: center;
+    text-align: center;
+}
+
+.nav-item:hover {
+    border: 1px solid white;
+    border-radius: 1px;
+    background-color: RGB(5 5 44);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 50px;
+}
+
+.primary-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: RGB(5 5 44);
+    color: white;
+    align-items: center;
+}
+
+.primary-content h1 {
+    font-family: 'jersey 15', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+}
+
+.primary-content h2 {
+    font-family: 'jersey 15', sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.grid-list {
+    display: grid;
+    grid: auto / auto auto auto;
+    gap: 50px;
+    padding: 100px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: RGB(29 31 73);
+    border-radius: 10px;
+}
+
+.grid-item img {
+    margin: 50px;
+    width: 350px;
+}
+
+.grid-item h2 {
+    font-size: 60px;
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+.hero h1 {
+    font-family: 'jersey 15', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'jersey 15', sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.footer-info {
+margin-top: 40px
+}
+
+#index-header {
+    background-image: url(images/skull.png);
+    background-size: 650px, 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+#index-header h1 {
+    text-align: center;
+    line-height: 500px;
+    font-family: 'jacquard 12', sans-serif;
+    font-size: 200px;
+    margin-top: -120px;
+}
+
+#index-main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    background-color: RGB(5 5 44);
+    color: white;
+}
+
+#index-main .hero p {
+    font-family: 'tiny5', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: right;
+}
+
+#album-ad {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: RGB(29 31 73);
+}
+
+#album-ad:hover {
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#album-ad h2 {
+    font-family: 'jersey 15', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#ad-mockup {
+    width: 800px;
+    height: 600px;
+    margin-bottom: -120px;
+    margin-top: -180px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+#album-ad p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'tiny5', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#album-mockup {
+    width: 800px;
+    height: 600px;
+    margin-top: -150px;
+}
